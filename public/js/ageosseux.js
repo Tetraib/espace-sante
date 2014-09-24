@@ -67,9 +67,13 @@ $(document).on("pageinit", function() {
             if (score == 27) {
                 $("#result").html(year + " ans et plus");
             }
-            else {
+            else if (month === 0) {
 
+                $("#result").html(year + " ans");
+            }
+            else {
                 $("#result").html(year + " ans et " + month + " mois");
+
             }
         }
         else {
