@@ -6,3 +6,6 @@ app.listen(process.env.PORT, process.env.IP);
 app.get('/', function(req, res) {
      res.render("home.jade", {});
 });
+app.get('/outils/ageosseux', function(req, res) {
+     res.render("ageosseux.jade", {});
+});
