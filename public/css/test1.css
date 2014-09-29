@@ -1,0 +1,48 @@
+.color1 {
+    background-color: pink;
+        height: 100%;
+
+}
+.color2 {
+    background-color: blue;
+    height: 100%;
+}
+.color3 {
+    background-color: yellow;
+    height: 100%;
+    float: left;
+}
+.color4 {
+    background-color: green;
+    float: right;
+    height: 100%;
+}
+.color5 {
+    background-color: green;
+        height: 100%;
+
+}
+.size {
+    height: 200px;
+}
+.color6 {
+    background-color: grey;
+    height: 100%;
+    float: left;
+    
+}
+.color7 {
+    background-color: grey;
+    float: right;
+    height: 100%;
+}
+.width{
+    width:100px;
+    
+}
+.height{
+    height:100px
+}
+body {
+    margin: 0;
+}
